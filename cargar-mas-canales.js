@@ -1,3 +1,6 @@
+let visibleItems = 10; // Cantidad de items visibles inicialmente
+const increment = 10; // Cantidad de items a cargar por cada scroll
+let loading = false; // Estado para evitar múltiples cargas
 
 // Función para mostrar los items visibles
 function showVisibleChannels() {
